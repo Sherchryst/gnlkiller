@@ -6,7 +6,7 @@
 /*   By: sgah <sgah@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/23 16:08:56 by sgah              #+#    #+#             */
-/*   Updated: 2019/10/23 16:19:09 by sgah             ###   ########.fr       */
+/*   Updated: 2019/10/24 04:07:52 by sgah             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,8 @@ int		main(int ac, char ** av)
 		printf("%s\n", l);
 		free(l);
 	}
-	printf("%d\n", n);
+	printf("last line [ret:%d]: %s", n, l);
+	free(l);
 	lol();
 	return (0);
 }
